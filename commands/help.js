@@ -1,6 +1,6 @@
 module.exports = {
   name: "help",
-  description: "Command List!",
+  description: "Command List.",
   execute: async (message, client, args) => {
     var commandList = "";
     client.commands.forEach(e => {
